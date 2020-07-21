@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:registry.db
+  jpa:
+    database-platform: ie.shannen.registry.config.SQLiteDialect
+    hibernate:
+      ddl-auto: update
